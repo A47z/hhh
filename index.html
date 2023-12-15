@@ -6,11 +6,30 @@
     <title>demo</title>
     <style>
       .name{
-        font-size: 50px;
+        font-size: 5rem;
         font-weight: 200;
         text-align: center;
+        font-weight: 800;
       }
+      @keyframes rainbow {
+  0% {color: red;}
+  14% {color: orange;}
+  28% {color: yellow;}
+  42% {color: lime;}
+  57% {color: blue;}
+  71% {color: indigo;}
+  85% {color: violet;}
+  100% {color: red;}
+}
+
+.name {
+  animation: rainbow 1ms linear infinite;
+}
+
+
+
       .photo{
+      
         width: 300px;
         margin: 0 auto;
         display: block;
